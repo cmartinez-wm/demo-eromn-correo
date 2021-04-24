@@ -1,0 +1,108 @@
+<mjml>
+  <mj-head>
+    <mj-title>Eromn</mj-title>
+    <mj-preview>Bienvenido</mj-preview>
+    <mj-style inline="inline">
+      .body-section {
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+
+      @font-face {
+        font-family: 'geomanist-regular-webfont';
+        font-display: swap;
+        src: url('https://eromn.com.mx/assets/fonts/geomanist-regular-webfont/font.woff');
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link {
+        color: #5e6ebf
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #888888
+      }
+
+      .eromn-image-header {
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-all font-family="geomanist-regular-webfont, Ubuntu, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="geomanist-regular-webfont, Ubuntu, Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#24abba" padding-bottom="0">
+        <mj-column>
+          <mj-image src="https://eromn.com.mx/public/logo-email.png" alt="" align="center" width="250px" href="https://eromn.com.mx/" />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-top="25px" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#212b35" font-weight="bold" font-size="20px">
+            ¡Gracias por poner a prueba tus conocimientos!
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Hola Carlos Martínez,
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Agradecemos el esfuezo y dedicación puesta en nuestro examen de simulación y esperamos te sea de gran ayuda.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Sabemos que no fue un reto fácil pero no tenemos duda de que podras obtener un gran resultado.</mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Que el ánimo no decaiga si el resultado es diferente al que esperabas, es probable que solo sea un pequeño recordatorio de que siempre podemos llegar mas alto.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+            No olvides que te estaremos apoyando, mucha suerte y te queremos ver en la escuela de tus sueños.
+          </mj-text>
+          <mj-image src="./flame-graduation-1.png" alt="" align="center" width="250px" href="https://eromn.com.mx/" />
+          <mj-button background-color="#24abba" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://google.com" width="300px">
+            Ver Resultados
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-color="#DFE3E8" border-width="1px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://www.facebook.com/eromn.mx/" background-color="#A1A0A0">
+            </mj-social-element>
+            <mj-social-element name="youtube" href="https://www.youtube.com/channel/UC1sJTgNKu4zR-OgsG5d-t7A/featured" background-color="#A1A0A0">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" font-weight="bold" align="center">
+            Visualiza este mail en el navegador
+          </mj-text>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            Haz recibido este correo como parte del proceso de aplicación del examen de simulación que provee eromn, si desconoce el remitente haga caso omiso del correo y contacte a nuestra area de soporte al 5555-555-55 o contacto@eromn.com.mx
+          </mj-text>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy; Eromn <span id="anio"></span>, All Rights Reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="100%" padding-right="0">
+            <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
+              <a class="footer-link" href="https://examen.eromn.com.mx/static/privacy.pdf">Aviso de Privacidad</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
